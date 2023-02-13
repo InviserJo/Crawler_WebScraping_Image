@@ -29,7 +29,7 @@ def scraper(search_term, path):
 
 if __name__ == "__main__":
     # specify the search term and the directory path
-    search_term = input(" ")
-    path = "C:/Users/rick_/Downloads/data/Image DataSet"
+    search_term = input("specify the image type:")
+    path = f"D:\myRepo\{search_term}"
     # run the scraper
     scraper(search_term, path)
